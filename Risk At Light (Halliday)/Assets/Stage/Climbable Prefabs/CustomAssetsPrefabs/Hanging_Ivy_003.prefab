@@ -157,7 +157,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 950a52f0826e5ea46b57236ee151bde9, type: 2}
   - {fileID: 2100000, guid: 707691d470c1c9540ab66f7bca23d9a0, type: 2}
@@ -193,7 +192,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 950a52f0826e5ea46b57236ee151bde9, type: 2}
   - {fileID: 2100000, guid: 707691d470c1c9540ab66f7bca23d9a0, type: 2}
@@ -229,7 +227,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 950a52f0826e5ea46b57236ee151bde9, type: 2}
   - {fileID: 2100000, guid: 707691d470c1c9540ab66f7bca23d9a0, type: 2}
@@ -282,9 +279,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 2
   m_Convex: 0
-  m_CookingOptions: 14
+  m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: cfae94002c272d14fb7dbfb38dbd454c, type: 3}
 --- !u!64 &64284787218508262
@@ -296,9 +293,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 2
   m_Convex: 0
-  m_CookingOptions: 14
+  m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: cfae94002c272d14fb7dbfb38dbd454c, type: 3}
 --- !u!64 &64802146418198598
@@ -310,9 +307,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 2
   m_Convex: 0
-  m_CookingOptions: 14
+  m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: cfae94002c272d14fb7dbfb38dbd454c, type: 3}
 --- !u!114 &114003607819918218
